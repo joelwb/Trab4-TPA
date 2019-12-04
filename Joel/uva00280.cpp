@@ -28,8 +28,9 @@ int main() {
     while (cin >> n && n != 0){
         vector<int> *edges[n+1];
 
+        for (int i = 1; i < n+1; i++) edges[i] = new vector<int>();
+
         while (cin >> startVertex && startVertex != 0) {
-            edges[startVertex] = new vector<int>();
             while (cin >> j && j != 0){
                 edges[startVertex]->push_back(j);
             } 
@@ -48,13 +49,19 @@ int main() {
 
             getInaccessibles(startVertex, edges);
 
-            cout << inaccessibles.size() << " ";
 
-            for (int k = 0; k < inaccessibles.size() - 1; k++) {
-                cout << inaccessibles[k] << " ";
+            if (inaccessibles.size() > 0){
+                cout << inaccessibles.size() << " ";
+
+                for (int k = 0; k < inaccessibles.size() - 1; k++) {
+                    cout << inaccessibles[k] << " ";
+                }
+
+                cout << inaccessibles[inaccessibles.size()-1] << endl;
+            } else {
+                cout << "0" << endl;
             }
-
-            cout << inaccessibles[inaccessibles.size()-1] << endl;
+            
         }
     }
 }
