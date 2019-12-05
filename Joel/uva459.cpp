@@ -1,3 +1,8 @@
+/*
+Autor Joel Will Belmiro
+O problema quer que se descobra a quantidade de subgrafos não conectados
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>
