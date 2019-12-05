@@ -1,3 +1,10 @@
+/*
+Autor: Joel Will Belmiro
+Se deseja saber, a partir de uma lista de variaveis e de uma lista de restrições de ordem,
+quais são as todas possibilidades que atendem as retrições
+A saída deve ser em ordem alfabética
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>
