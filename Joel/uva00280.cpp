@@ -1,3 +1,8 @@
+/*
+Autor: Joel Will Belmiro
+Se deseja saber quais são os nós que são inacessiveis em um grafo a partir de um nó
+*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
