@@ -6,7 +6,8 @@ using namespace std;
 
 int main()
 {
-	/*O problema se baseia em calcularmos se manuel saiu ganhando ou perdendo em uma streak de uma aposta em jackpot*/
+	/*Autor: Nicolas Pereira Sampaio
+	O problema se baseia em calcularmos se manuel saiu ganhando ou perdendo em uma streak de uma aposta em jackpot*/
 
 	while (true) {
 		int n;

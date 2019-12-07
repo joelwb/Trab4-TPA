@@ -6,7 +6,8 @@ using namespace std;
 
 int main()
 {
-	/*O problema avalia a quantidade de espantalhos que deve ser colocado na colheita para garantir que irá espantar todas as ameaças*/
+	/*Autor: Nicolas Pereira Sampaio
+	O problema avalia a quantidade de espantalhos que deve ser colocado na colheita para garantir que irá espantar todas as ameaças*/
 
 	int qntCase;
 	cin >> qntCase;
