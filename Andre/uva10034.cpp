@@ -1,3 +1,11 @@
+/***
+	Author: André Martins
+
+	Esse código tem o objetivo que calcular a menor distância entre as sardas nas costas do pai de Richie, para assim, economizar tinta.
+	A solução deste algoritmo baseia-se no uso do algoritmo de Prim para calcular a árvore geradora mínima, que seria representada pelas pintas.
+***/
+
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

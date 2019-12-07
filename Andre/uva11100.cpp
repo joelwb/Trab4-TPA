@@ -1,3 +1,10 @@
+/***
+	Author: André Martins
+
+	Este algoritmo tem como objetivo calcular a melhor forma de organizar os sacos de dormir dos viajantes,
+	de uma forma que diminua ao máximo o número de peças a serem levadas, colocando um saco dentro de outro de acordo com o seu tamanho.
+***/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
